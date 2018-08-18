@@ -15,7 +15,7 @@ app.get("/", (req, res, next) => {
 });
 
 // Current rooms
-const currentRooms = [];
+let currentRooms = [];
 
 setInterval(() => {
   currentRooms = [];
